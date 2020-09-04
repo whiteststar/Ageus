@@ -1,0 +1,7 @@
+<div class="container">
+  <h2 class= "col-md-auto" >Personel List</h2>
+  <hr>
+  <div *ngFor="let person of persons; let i index" class="col-md-12">
+    <app-person-item [persons]="i"></app-person-item>
+  </div>
+</div>
